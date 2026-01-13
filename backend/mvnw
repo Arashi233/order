@@ -1,0 +1,4 @@
+#!/bin/sh
+# Maven wrapper bootstrap script
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec java -jar "$DIR/.mvn/wrapper/maven-wrapper.jar" "$@"
